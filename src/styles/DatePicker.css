@@ -1,0 +1,90 @@
+/* Main Container Styling */
+.custom-datepicker-container {
+    width: 100%;
+    max-width: 250px; /* Maximum width for responsiveness */
+    margin: 0 auto; /* Center the date picker */
+    padding: 1rem;
+  }
+  
+  /* Datepicker Main Styling */
+  .react-datepicker {
+    background-color: #f4eaf8; /* Light purple background */
+    color: #000; /* Black text */
+    border-radius: 1rem; /* Rounded corners */
+    border: none;
+    padding: 1rem;
+    width: 250px; /* Make it responsive */
+    height: auto; /* Automatically adjust height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  /* Header Styling */
+  .react-datepicker__header {
+    background-color: #f4eaf8; 
+    border-bottom: none;
+    color: #000; /* Black text in header */
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1rem 1rem 0 0; /* Smooth rounded top corners */
+  }
+  
+  /* Current Month Styling */
+  .react-datepicker__current-month {
+    font-size: 14px;
+    
+  }
+  
+  /* Day Styling */
+  .react-datepicker__day {
+    color: #000; /* Black for dates */
+    background-color: transparent;
+    border-radius: 100%; /* Circle shape for day numbers */
+    padding: 0.1rem;
+    margin: 0.1rem; 
+  }
+
+  
+  
+  /* Hover Styling for Days */
+  .react-datepicker__day:hover {
+    background-color: #d4c4f4; /* Lighter purple on hover */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Selected Day Styling */
+  .react-datepicker__day--selected {
+    background-color: #5f3dc4; 
+    color: #fff; 
+    border-radius: 50%;
+  }
+  
+  /* Remove Triangle */
+  .react-datepicker__triangle {
+    display: none; /* Remove triangle if not needed */
+  }
+  
+  /* Navigation Arrows Styling */
+  .react-datepicker__navigation--previous,
+  .react-datepicker__navigation--next {
+    border-color: #5f3dc4; /* Purple navigation arrows */
+    top: 15px;
+  }
+  
+  /* Day Names Styling */
+  .react-datepicker__day-name {
+    color: #000; /* Black day names */
+    font-weight: 500;
+  }
+  
+  /* Month Container Styling */
+  .react-datepicker__month-container {
+    padding-bottom: 1rem; /* Add some spacing */
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 480px) {
+    .react-datepicker {
+      width: 100%; /* Full width for smaller screens */
+    }
+  }
+  
